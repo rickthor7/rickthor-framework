@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework UI Futuristik by [NamaKamu/FrameworkKamu]</title>
+    <link rel="stylesheet" href="css/framework-futuristic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar-futuristic">
+      <div class="navbar-brand" data-text="CYBERCORE_UI">
+        <a href="#">CYBERCORE_UI</a>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="#" class="nav-link active" data-text="DASHBOARD">DASHBOARD</a></li>
+        <li><a href="#" class="nav-link" data-text="MODULES">MODULES</a></li>
+        <li><a href="#" class="nav-link" data-text="REPORTS">REPORTS</a></li>
+        <li><a href="#" class="nav-link" data-text="TERMINAL">TERMINAL</a></li>
+      </ul>
+      <button class="navbar-toggle" aria-label="Toggle Navigation" id="navbarToggleBtn">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </nav>
+
+    <header class="header-futuristic">
+      <h1 class="judul-framework" data-text="FUTR_CORE_DESIGN_SYSTEM">
+        FUTR_CORE_DESIGN_SYSTEM
+      </h1>
+    </header>
+
+    <main class="futuristic-container">
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="ACTION_BUTTONS">ACTION_BUTTONS</h2>
+            <div style="text-align: center; padding: var(--spacing-unit) 0;">
+                <button class="btn-futuristic btn-primer-futuristic" data-text="LAUNCH SEQUENCE">LAUNCH SEQUENCE</button>
+                <button class="btn-futuristic btn-sekunder-futuristic" data-text="SYSTEM SCAN">SYSTEM SCAN</button>
+                <button class="btn-futuristic" data-text="STANDBY_MODE">STANDBY_MODE</button> </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="DATA_CARDS">DATA_CARDS</h2>
+            <div class="card-container">
+              <div class="card-futuristic">
+                <div class="card-deco-line top-left"></div><div class="card-deco-line top-right"></div>
+                <div class="card-header-futuristic"><h3 data-text="SYSTEM_ALERT">SYSTEM_ALERT</h3></div>
+                <div class="card-body-futuristic">
+                  <p>Anomaly detected: Unstable energy signature in Sector Gamma-7. Recommend immediate diagnostic sequence.</p>
+                  <a href="#" class="btn-futuristic btn-sekunder-futuristic btn-sm" data-text="INITIATE">INITIATE</a>
+                </div>
+                <div class="card-deco-line bottom-left"></div><div class="card-deco-line bottom-right"></div>
+              </div>
+              <div class="card-futuristic glass-effect">
+                <div class="card-deco-line top-left"></div><div class="card-deco-line top-right"></div>
+                <div class="card-header-futuristic"><h3 data-text="DATA_STREAM">DATA_STREAM</h3></div>
+                <div class="card-body-futuristic">
+                  <p>Quantum entanglement successful. Receiving data packets from Chronos Beacon...</p>
+                  <pre class="code-block-futuristic"><code>&gt; CHRONOS_BEACON_STATUS: ONLINE
+&gt; DATA_INTEGRITY: 99.97%
+&gt; EST_COMPLETION: 7.3 CYCLES</code></pre>
+                </div>
+                <div class="card-deco-line bottom-left"></div><div class="card-deco-line bottom-right"></div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="INPUT_MODULES">INPUT_MODULES</h2>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: calc(var(--spacing-unit) * 2);">
+                <div class="input-group-futuristic">
+                  <input type="text" id="dataInput" class="input-futuristic" placeholder="ENTER COMMAND">
+                  <label for="dataInput" class="label-futuristic">ACCESS_CODE</label>
+                  <div class="input-border-glow"></div>
+                </div>
+                <div class="input-group-futuristic">
+                  <input type="password" id="secureInput" class="input-futuristic" placeholder="••••••••">
+                  <label for="secureInput" class="label-futuristic">PASSKEY</label>
+                  <div class="input-border-glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="PROCESSING_UNIT">PROCESSING_UNIT</h2>
+            <div class="spinner-container-futuristic">
+              <div class="spinner-futuristic">
+                <div class="spinner-segment"></div><div class="spinner-segment"></div>
+                <div class="spinner-segment"></div><div class="spinner-segment"></div>
+                <div class="spinner-segment"></div><div class="spinner-segment"></div>
+              </div>
+              <p class="spinner-text">PROCESSING...</p>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="INFO_NODES_TOOLTIPS">INFO_NODES & TOOLTIPS</h2>
+            <div style="padding: calc(var(--spacing-unit) * 3); text-align: center;">
+                <button class="btn-futuristic btn-primer-futuristic" data-tooltip="Activate primary warp drive coils" data-tooltip-direction="top">ENGAGE WARP</button>
+                <span class="info-icon" tabindex="0" data-tooltip="System Status: All parameters nominal. Ready for operation." data-tooltip-direction="right">i</span>
+                <button class="btn-futuristic btn-sekunder-futuristic" style="margin-left: var(--spacing-unit);" data-tooltip="Eject auxiliary power cell. Use with caution!" data-tooltip-direction="bottom">EJECT CELL</button>
+                <br><br>
+                <div class="data-node" data-status="loading" data-tooltip="Fetching quantum entanglement stream... Please stand by." data-tooltip-direction="top">
+                  <div class="data-node-indicator"></div>NODE_SIGMA_9
+                </div>
+                <div class="data-node" data-status="online" data-tooltip="Connection stable. Data integrity: 100%." data-tooltip-direction="bottom">
+                  <div class="data-node-indicator"></div>NODE_THETA_2
+                </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="PROGRESS_INDICATORS">PROGRESS_INDICATORS</h2>
+            <div style="padding: calc(var(--spacing-unit) * 3); max-width: 500px; margin: auto;">
+              <h4 class="demo-sub-title">Standard Progress:</h4>
+              <div class="progress-bar-futuristic" data-progress="75">
+                <div class="progress-bar-track"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+                <div class="progress-bar-label">75% LOADED</div>
+              </div>
+              <h4 class="demo-sub-title" style="margin-top: calc(var(--spacing-unit) * 4);">Animated Scan Progress:</h4>
+              <div class="progress-bar-futuristic animated-fill" data-progress="60">
+                <div class="progress-bar-track"><div class="progress-bar-fill" style="width: 60%;"><div class="progress-bar-scan-effect"></div></div></div>
+                <div class="progress-bar-label">CALIBRATING... 60%</div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="DATA_TABS_INTERFACE">DATA_TABS_INTERFACE</h2>
+            <div class="tabs-futuristic" style="max-width: 600px; margin: calc(var(--spacing-unit) * 4) auto;">
+              <div class="tab-headers">
+                <button class="tab-link active" data-tab="tab-1-content">CORE_SYS</button>
+                <button class="tab-link" data-tab="tab-2-content">NETWORK_INT</button>
+                <button class="tab-link" data-tab="tab-3-content">POWER_MGMT</button>
+                <button class="tab-link" data-tab="tab-4-content" disabled>LOG_ARCHIVES</button>
+              </div>
+              <div class="tab-content-area">
+                <div id="tab-1-content" class="tab-pane active">
+                  <h4>System Core Diagnostics</h4><p>Main processor temperature: 32.5°C. Quantum core efficiency: 99.91%. Last integrity sweep: All nominal.</p>
+                </div>
+                <div id="tab-2-content" class="tab-pane">
+                  <h4>Network Interface Status</h4><p>Active nodes: 256/256. Data throughput (peak): 15.8 ZB/s. Current latency: 0.0017ms.</p>
+                </div>
+                <div id="tab-3-content" class="tab-pane">
+                  <h4>Power Management Overview</h4><p>Primary fusion reactor output: 100%. Auxiliary antimatter cells: 92.7%. Emergency solar reserves: Charged.</p>
+                </div>
+                 <div id="tab-4-content" class="tab-pane">
+                  <h4>Log Archives</h4><p>Access to log archives is currently restricted. Authorization level 5 required.</p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="COLLAPSIBLE_SECTIONS">COLLAPSIBLE_SECTIONS</h2>
+            <div class="accordion-futuristic" style="max-width: 600px; margin: calc(var(--spacing-unit) * 4) auto;">
+              <div class="accordion-item">
+                <button class="accordion-header"><span>Deployment Protocols</span><span class="accordion-indicator">[+]</span></button>
+                <div class="accordion-content"><p>Protocol Alpha: Standard deployment for Type-A modules. Requires Level 3 clearance.</p></div>
+              </div>
+              <div class="accordion-item active">
+                <button class="accordion-header"><span>Security Matrix v7.3</span><span class="accordion-indicator">[-]</span></button>
+                <div class="accordion-content"><p>Quantum encryption layer: ACTIVE. Neural network firewall: ONLINE. Last audit: No anomalies.</p><a href="#" class="btn-futuristic btn-sekunder-futuristic btn-sm" data-text="VIEW_REPORT" style="margin-top: var(--spacing-unit);">VIEW_REPORT</a></div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-header"><span>Maintenance Schedule</span><span class="accordion-indicator">[+]</span></button>
+                <div class="accordion-content"><p>Next core system defragmentation: Cycle 270.0. Coolant flush: Cycle 295.5.</p></div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <div class="timeline-container-futuristic" style="max-width: 700px; margin: calc(var(--spacing-unit) * 4) auto; padding: var(--spacing-unit);">
+              <h2 class="section-title-futuristic" data-text="MISSION_CHRONICLES">MISSION_CHRONICLES</h2>
+              <div class="timeline-futuristic">
+                <div class="timeline-event">
+                  <div class="timeline-marker"><div class="marker-glow"></div></div><div class="timeline-line"></div>
+                  <div class="timeline-content-card">
+                    <div class="timeline-timestamp" data-text="CYCLE 234.01">CYCLE 234.01</div><h4>PROJECT GENESIS INITIATED</h4><p>Quantum core activation sequence started. Parameters calibrated.</p>
+                  </div>
+                </div>
+                <div class="timeline-event event-highlight">
+                  <div class="timeline-marker"><div class="marker-glow"></div></div><div class="timeline-line"></div>
+                  <div class="timeline-content-card">
+                    <div class="timeline-timestamp" data-text="CYCLE 237.55">CYCLE 237.55</div><h4>FIRST STABLE SINGULARITY</h4><p>Energy output nominal. System integrity 99.987%. Milestone achieved.</p><span class="status-tag online" style="margin-top: var(--spacing-unit);">SUCCESS</span>
+                  </div>
+                </div>
+                <div class="timeline-event">
+                  <div class="timeline-marker"><div class="marker-glow"></div></div>
+                  <div class="timeline-content-card">
+                    <div class="timeline-timestamp" data-text="CYCLE 240.12">CYCLE 240.12</div><h4>ANOMALY DETECTED</h4><p>Unidentified energy signature in Sector Gamma. Investigating source.</p><span class="status-tag warning" style="margin-top: var(--spacing-unit);">WARNING</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <div class="table-container-futuristic" style="max-width: 800px; margin: calc(var(--spacing-unit) * 4) auto;">
+              <h2 class="section-title-futuristic" data-text="NODE_STATUS_GRID">NODE_STATUS_GRID</h2>
+              <table class="data-table-futuristic">
+                <thead><tr><th>NODE_ID</th><th>STATUS</th><th>TEMP (°C)</th><th>LOAD (%)</th><th>LAST_ACTIVITY</th><th>ACTIONS</th></tr></thead>
+                <tbody>
+                  <tr><td data-label="NODE_ID">Sigma-001</td><td data-label="STATUS"><span class="status-tag online">ONLINE</span></td><td data-label="TEMP (°C)">35.2</td><td data-label="LOAD (%)">15.7</td><td data-label="LAST_ACTIVITY">Cycle 241.003</td><td data-label="ACTIONS"><button class="btn-futuristic btn-sm" data-text="QUERY">QUERY</button></td></tr>
+                  <tr><td data-label="NODE_ID">Theta-007</td><td data-label="STATUS"><span class="status-tag warning">DEGRADED</span></td><td data-label="TEMP (°C)">58.9</td><td data-label="LOAD (%)">72.3</td><td data-label="LAST_ACTIVITY">Cycle 240.889</td><td data-label="ACTIONS"><button class="btn-futuristic btn-sm" data-text="REBOOT">REBOOT</button></td></tr>
+                  <tr><td data-label="NODE_ID">Omega-003</td><td data-label="STATUS"><span class="status-tag error">OFFLINE</span></td><td data-label="TEMP (°C)">--</td><td data-label="LOAD (%)">--</td><td data-label="LAST_ACTIVITY">Cycle 239.102</td><td data-label="ACTIONS"><button class="btn-futuristic btn-sm" data-text="DIAGNOSE" disabled>DIAGNOSE</button></td></tr>
+                </tbody>
+              </table>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <h2 class="section-title-futuristic" data-text="OPERATIVE_PROFILE">OPERATIVE_PROFILE</h2>
+            <div class="profile-card-container" style="display: flex; justify-content: center; padding: var(--spacing-unit) * 4;">
+              <div class="user-profile-card-futuristic">
+                <div class="profile-card-deco-bg"></div>
+                <div class="profile-header">
+                  <div class="avatar-container"><img src="https://via.placeholder.com/100x100/0A0F1E/00FFFF?text=USER" alt="User Avatar" class="profile-avatar"><div class="avatar-rings"><div></div><div></div><div></div></div></div>
+                  <div class="profile-main-info">
+                    <h3 class="profile-name" data-text="Cmdr. KAIZEN REX">Cmdr. KAIZEN REX</h3><p class="profile-role">Lead Systems Architect | Sector Alpha</p><span class="status-tag online profile-status">OPERATIONAL</span>
+                  </div>
+                </div>
+                <div class="profile-stats">
+                  <div class="stat-item"><span class="stat-label">Missions</span><span class="stat-value" data-text="218">218</span></div>
+                  <div class="stat-item"><span class="stat-label">Threat Lvl</span><span class="stat-value" data-text="GAMMA">GAMMA</span></div>
+                  <div class="stat-item"><span class="stat-label">Integrity</span><span class="stat-value" data-text="99.7%">99.7%</span></div>
+                </div>
+                <div class="profile-clearance">
+                  <span class="clearance-label">CLEARANCE:</span><div class="clearance-level-indicator"><span></span><span></span><span></span><span></span><span class="active"></span><span class="active"></span><span class="active"></span></div>
+                </div>
+                <div class="profile-actions"><button class="btn-futuristic btn-sm btn-primer-futuristic" data-text="DOSSIER">DOSSIER</button><button class="btn-futuristic btn-sm" data-text="COMMS">COMMS</button></div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <div class="section-layout-demo futuristic-container themed-container"> <h2 class="section-title-futuristic" data-text="GRID_SYSTEM_DEMO">GRID_SYSTEM_DEMO</h2>
+              <p class="demo-text">2 Kolom Sama Lebar:</p>
+              <div class="futuristic-row"><div class="futuristic-col futuristic-col-6"><div class="demo-box">Kolom 1 (col-6)</div></div><div class="futuristic-col futuristic-col-6"><div class="demo-box">Kolom 2 (col-6)</div></div></div>
+              <p class="demo-text">3 Kolom Berbeda Lebar:</p>
+              <div class="futuristic-row"><div class="futuristic-col futuristic-col-3"><div class="demo-box">Kolom A (col-3)</div></div><div class="futuristic-col futuristic-col-6"><div class="demo-box">Kolom B (col-6)</div></div><div class="futuristic-col futuristic-col-3"><div class="demo-box">Kolom C (col-3)</div></div></div>
+              <p class="demo-text">4 Kolom Sama Lebar:</p>
+              <div class="futuristic-row"><div class="futuristic-col futuristic-col-3"><div class="demo-box">Blok 1</div></div><div class="futuristic-col futuristic-col-3"><div class="demo-box">Blok 2</div></div><div class="futuristic-col futuristic-col-3"><div class="demo-box">Blok 3</div></div><div class="futuristic-col futuristic-col-3"><div class="demo-box">Blok 4</div></div></div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <div class="slider-showcase-container" style="max-width: 400px; margin: calc(var(--spacing-unit) * 4) auto; padding: calc(var(--spacing-unit) * 3); background-color: color-mix(in srgb, var(--warna-latar-gelap) 70%, transparent); border-radius: var(--border-radius-halus);">
+              <h3 class="section-title-futuristic small-title" data-text="ENERGY_OUTPUT_CONTROL">ENERGY_OUTPUT_CONTROL</h3>
+              <div class="slider-futuristic-wrapper">
+                <input type="range" min="0" max="100" value="75" class="slider-futuristic" id="energySlider">
+                <div class="slider-value-display"><span id="sliderValueOutput">75</span>%</div>
+              </div>
+              <div class="slider-futuristic-wrapper" style="margin-top: calc(var(--spacing-unit) * 4);">
+                <label for="thresholdSlider" class="slider-label-futuristic">ALERT THRESHOLD:</label>
+                <input type="range" min="0" max="200" value="120" step="5" class="slider-futuristic variant-alt" id="thresholdSlider">
+                <div class="slider-value-display alt"><span id="thresholdValueOutput">120</span> PSI</div>
+              </div>
+            </div>
+        </section>
+
+        <section class="component-section">
+            <div class="datetimepicker-showcase" style="max-width: 400px; margin: calc(var(--spacing-unit) * 4) auto; padding: calc(var(--spacing-unit) * 2);">
+              <h3 class="section-title-futuristic small-title" data-text="CHRONOS_INTERFACE">CHRONOS_INTERFACE</h3>
+              <div class="input-group-futuristic datetime-input-trigger">
+                <input type="text" id="futuristicDateTime" class="input-futuristic" placeholder="SELECT DATE & TIME" readonly>
+                <label for="futuristicDateTime" class="label-futuristic">EVENT_SCHEDULE</label>
+                <div class="input-border-glow"></div>
+                <span class="calendar-icon-trigger">📅</span>
+              </div>
+              <div class="datetimepicker-futuristic" id="futuristicPickerContainer">
+                <div class="picker-header-controls"><button class="picker-mode-toggle active" data-mode="date">DATE</button><button class="picker-mode-toggle" data-mode="time">TIME</button></div>
+                <div class="datepicker-section visible-section">
+                  <div class="datepicker-header"><button class="nav-arrow prev-month" data-text="<">&lt;</button><div class="current-month-year">MAY 2025</div><button class="nav-arrow next-month" data-text=">">&gt;</button></div>
+                  <div class="datepicker-weekdays"><span>MO</span><span>TU</span><span>WE</span><span>TH</span><span>FR</span><span>SA</span><span>SU</span></div>
+                  <div class="datepicker-grid">
+                    <div class="date-cell out-of-month">28</div><div class="date-cell out-of-month">29</div><div class="date-cell out-of-month">30</div>
+                    <div class="date-cell">1</div><div class="date-cell">2</div><div class="date-cell">3</div><div class="date-cell">4</div>
+                    <div class="date-cell">5</div><div class="date-cell">6</div><div class="date-cell">7</div><div class="date-cell">8</div><div class="date-cell">9</div><div class="date-cell">10</div><div class="date-cell">11</div>
+                    <div class="date-cell">12</div><div class="date-cell">13</div><div class="date-cell">14</div><div class="date-cell">15</div><div class="date-cell">16</div><div class="date-cell">17</div><div class="date-cell">18</div>
+                    <div class="date-cell">19</div><div class="date-cell">20</div><div class="date-cell">21</div><div class="date-cell">22</div><div class="date-cell">23</div><div class="date-cell">24</div><div class="date-cell">25</div>
+                    <div class="date-cell">26</div><div class="date-cell">27</div><div class="date-cell">28</div><div class="date-cell">29</div><div class="date-cell">30</div><div class="date-cell current-day selected">31</div>
+                    <div class="date-cell out-of-month">1</div>
+                  </div>
+                </div>
+                <div class="timepicker-section">
+                  <div class="time-inputs">
+                    <div class="time-segment"><button class="time-adj-btn up-arrow" data-text="▲">▲</button><input type="text" value="09" class="time-input" readonly><button class="time-adj-btn down-arrow" data-text="▼">▼</button></div>
+                    <span class="time-separator">:</span>
+                    <div class="time-segment"><button class="time-adj-btn up-arrow" data-text="▲">▲</button><input type="text" value="30" class="time-input" readonly><button class="time-adj-btn down-arrow" data-text="▼">▼</button></div>
+                    <div class="time-segment ampm-segment"><button class="ampm-toggle active">AM</button><button class="ampm-toggle">PM</button></div>
+                  </div>
+                </div>
+                <div class="picker-actions"><button class="btn-futuristic btn-sm" data-text="CANCEL" id="pickerCancelBtn">CANCEL</button><button class="btn-futuristic btn-sm btn-primer-futuristic" data-text="SET" id="pickerSetBtn">SET</button></div>
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: calc(var(--spacing-unit) * 4); border-top: 1px solid color-mix(in srgb, var(--warna-primer-neon) 20%, transparent); margin-top: calc(var(--spacing-unit) * 5);">
+        <p style="font-family: var(--font-mono-futuristic); color: var(--warna-teks-sekunder); font-size: 0.8rem;">
+            Futuristic UI Framework - Mission Accomplished (Phase 1) - Ready for Next Directives
+        </p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
